@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "aipple"
+version = "0.1.0"
+description = "AIPPLe: [AI] is [Pol]ishing [P]rogramming [L]anguage Cod[e]"
+authors = ["wuhanghao"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.34.0"
+black = "^24.4.2"
+isort = "^5.13.2"
+pylint = "^3.2.3"
+flake8 = "^7.1.0"
+pandas = "^2.2.2"
+nltk = "^3.8.1"
+tiktoken = "^0.7.0"
+code-tokenize = "^0.2.0"
+autopep8 = "^2.3.0"
+yapf = "^0.40.2"
+pytest = "^8.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
